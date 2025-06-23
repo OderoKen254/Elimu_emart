@@ -1,1 +1,1 @@
-// Checkout form component with payment processing logic integration
+
