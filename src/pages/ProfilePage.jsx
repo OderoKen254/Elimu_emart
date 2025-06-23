@@ -4,7 +4,7 @@ import Profile from '../components/Profile';
 function ProfilePage() {
   const [user, setUser] = useState(null);
   const [error, setError] = useState(null);
-  const [isSignup, setIsSignup] = useState(false); // toggle view
+  const [isSignup, setIsSignup] = useState(false); 
 
   const handleLogin = async (e) => {
     e.preventDefault();
