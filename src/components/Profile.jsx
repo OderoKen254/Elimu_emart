@@ -20,7 +20,7 @@ function Profile({ user }) {
           <ul className="order-list">
             {user.orders.map((order) => (
               <li key={order.id} className="order-card">
-                <p className="order-name">📦 {order.product_name}</p>
+                <p className="order-name"> {order.product_name}</p>
                 <p><strong>Status:</strong> {order.status}</p>
                 <p><strong>Customization:</strong> {order.customization}</p>
                 <p>
