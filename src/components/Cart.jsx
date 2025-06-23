@@ -1,1 +1,1 @@
-// Shopping cart component
+
